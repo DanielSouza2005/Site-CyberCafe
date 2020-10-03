@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+        <style type = "text/css">
+.saladas{
+        width: 210px;
+        height: 260px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+        float: left;
+}  
+.foto_saladas{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_saladas:hover{
+    border-color: #65AF56;
+}
+    </style>
+
+        <script language="javascript" type="text/javascript">
+            dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+            monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+            now = new Date
+        </script>
+    
+    </head>
+
+<body>
+
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            <a href = "index.html"><img src = "img/logo.png"> </a>
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+        <div id = "menu_item">
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>                   
+        </div>
+    </div>
+    <div id = "conteudo"> 
+        <div class = "saladas">
+            <img src = "img/saladas/salada_01.png" class = "foto_saladas">
+            <h1> Colorida </h1>
+            <p> Repolho roxo, hortelã e manga</p>
+        </div>
+        <div class = "saladas">
+            <img src = "img/saladas/salada_02.png" class = "foto_saladas">
+            <h1> Repolho Roxo </h1>
+            <p> Cenoura, couve, hortelã e repolho roxo</p>
+        </div>
+        <div class = "saladas">
+            <img src = "img/saladas/salada_03.png" class = "foto_saladas">
+            <h1> Couve-flor </h1>
+            <p> Brócolis e couve-flor temperado com azeite, limão, sal, pimenta e cebolinhas </p>
+        </div>
+
+        <div class = "saladas">
+            <img src = "img/saladas/salada_04.png" class = "foto_saladas">
+            <h1> Abacaxi Grelhado</h1>
+            <p> Rúcula, rabanete, tomates, abacaxi grelhado e queijo </p>
+        </div>
+        <div class = "saladas">
+            <img src = "img/saladas/salada_05.png" class = "foto_saladas">
+            <h1> Grega </h1>
+            <p> Tomate, pepino, cebola, azeitona, queijo branco, ricota e salsa </p>
+        </div>
+        <div class = "saladas">
+            <img src = "img/saladas/salada_06.png" class = "foto_saladas">
+            <h1> Morango </h1>
+            <p> Morango, cereja, uva, alface, tomate, repolho roxo e castanhas </p>
+        </div>
+    </div>
+    <div id = "rodape">
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+    </div>
+    
+</div>
+</body>
+</html>

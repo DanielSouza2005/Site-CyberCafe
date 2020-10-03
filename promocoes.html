@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+        <style type = "text/css">
+    
+        .promocao1{
+            height: 294px;
+            width: 390px;
+            float: left;
+        }
+        .promocao2{
+            height: 294px;
+            width: 390px;
+            float: left; 
+        }
+        .promocao3{
+            height: 294px;
+            width: 390px;
+            float: left; 
+        }
+        .promocao4{
+            height: 294px;
+            width: 390px;
+            float: left;  
+        }
+        .promocao{
+            width: 390px;
+            height: 127px;
+            float: left;
+        }
+        .pizza{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ffffff;
+            margin-left: 27.5px;
+            margin-top: 15px;
+        }
+        .pizza:hover{
+            border-color: #FFCC00;
+        }
+        .salada{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ffffff;
+        }
+        .salada:hover{
+            border-color: #65AF56;
+        }
+        .cafe{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ffffff;
+            margin-left: 27.5px;
+            margin-top: 10px;
+        }
+        .cafe:hover{
+            border-color: #571818;
+        }
+        .milkshake{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ffffff;
+        }
+        .milkshake:hover{
+            border-color: #634a3d;
+        }
+        .doce{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #ffffff;
+        }
+        .doce:hover{
+            border-color: #aa6836;
+        }
+        .titulo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            color: #FFCC00;
+            margin-left: 55px;
+            margin-top: 17px;
+        }
+        .titulo3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            color: #FFCC00;
+            margin-left: 60px;
+            margin-top: 17px;
+        }
+        .titulo4{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            color: #FFCC00;
+            margin-left: 40px;
+            margin-top: 17px;
+        }
+        .texto_promocoes{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        
+        </style>
+
+        <script language="javascript" type="text/javascript">
+            dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+            monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+            now = new Date
+        </script>
+        
+    </head>
+
+<body>
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            <a href = "index.html"><img src = "img/logo.png"> </a> 
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+
+        <div id = "menu_item">
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>                   
+        </div>
+    </div>
+    <div id = "conteudo"> 
+        <div class = "promocao1">
+            <div class = "promocao">
+                <img src = "img/promocoes/promocao1.jpg" class = "pizza">
+                <img src = "img/promocoes/promocao1.1.jpeg" class = "salada">
+                <h1 class = "titulo">Combo: Pizza + Salada</h1>
+                <p class = "texto_promocoes">Combo: Qualquer pizza mais qualquer salada do nosso cardápio por apenas R$39,99</p>
+                
+            </div>
+
+        </div>
+        <div class = "promocao2">
+            <div class = "promocao">
+                <img src = "img/promocoes/promocao1.jpg" class = "pizza">
+                <img src = "img/promocoes/promocao2.jpg" class = "doce">
+                <h1 class = "titulo">Combo: Pizza + Doce</h1>
+                <p class = "texto_promocoes">Combo: Qualquer pizza mais qualquer doce do nosso cardápio por apenas R$34,99</p>
+
+            </div>
+
+        </div>
+        <div class = "promocao3">
+            <div class = "promocao">
+                <img src = "img/promocoes/bebida_01.jpg" class = "cafe">
+                <img src = "img/promocoes/promocao2.jpg" class = "doce">
+                <h1 class = "titulo3">Combo: Café + Doce</h1>
+                <p class = "texto_promocoes">Combo: Café Gourmet mais qualquer salada do nosso cardápio por apenas R$19,99</p>
+
+            </div>
+
+        </div>
+        <div class = "promocao4">
+            <div class = "promocao">
+                <img src = "img/promocoes/bebida_01.jpg" class = "cafe">
+                <img src = "img/promocoes/bebida_03.jpg" class = "milkshake">
+                <h1 class = "titulo4">Combo: Café + Milkshake</h1>
+                <p class = "texto_promocoes">Combo: Café Gourmet mais qualquer milkshake do nosso cardápio por apenas R$19,99</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div id = "rodape">
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+    </div>
+    
+</div>
+</body>
+</html>

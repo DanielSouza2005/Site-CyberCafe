@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+        <style type = "text/css">
+
+        .divisao{
+            width:740px;
+            height: auto;
+            margin: 20px;
+            float: left;
+        }
+        .texto_servicos{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            color: #ffffff;
+            text-align: justify;
+        }
+
+        </style>
+
+        <script language="javascript" type="text/javascript">
+            dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+            monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+            now = new Date
+        </script>
+
+    </head>
+
+<body>
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            
+            <a href = "index.html"><img src = "img/logo.png"> </a> 
+        
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+        <div id = "menu_item">
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>                   
+        </div>
+    </div>
+    <div id = "conteudo" > 
+        <div class = "divisao">
+            <h1>Internet</h1>
+            <p class = "texto_servicos">O Cyber Café oferece aos clientes acesso à internet através do pagamento de uma taxa, que é cobrada por hora. É um local que poderá ser usado para realizar pesquisas, estudar e fazer trabalhos em grupo. </p>
+
+            <h1>Jogos em Rede</h1>
+            <p class = "texto_servicos">Muitos gamers preferem jogar com seus amigos ao invés de seguir horas e horas em campanhas solitárias. Logo, seja em Lan Houses, reunidos em casa ou através da internet, há uma grande diversidade de opções para a diversão em grupo com games.</p>
+
+            <h1>Impressão</h1>
+            <p class = "texto_servicos">Realizamos impressões de alta qualidade, entrega rápida, serviço eficiente e o preço é bom.</p>
+
+            <h1>Scanner</h1>
+            <p class = "texto_servicos">Realizamos o serviço de digitalização com uma ótima qualidade, e o preço sai em conta. </p>
+
+            <h1>Gravação em CD/DVD</h1>
+            <p class = "texto_servicos">Realizamos o serviço de gravação em CDs e DVDs de arquivos em pen-drives, em celulares e muito mais! </p>
+
+            <h1>Back-up</h1>
+            <p class = "texto_servicos">Realizamos o serviço de Back-up de arquivos quaisquer, seja na nuvem ou em outro dispositivo.</p>
+
+            <h1>Bate-papo</h1>
+            <p class = "texto_servicos">Além de fazerem trabalhos de escola e estudarem, nossos clientes podem usar do local para simplesmente jogarem e se divertirem, ao mesmo tempo em que conversam e socializam com os amigos. Também instalamos softwares de bate-papo nas máquinas, onde será possível encontrar e fazer novos amigos.</p>
+        </div>
+    </div>
+    <div id = "rodape">
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+    </div>
+    
+</div>
+</body>
+</html>

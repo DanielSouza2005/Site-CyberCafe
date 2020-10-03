@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+    <style type = "text/css">
+        
+    .divisao01{
+        width: 370px;
+        height: 568px;
+        margin: 10px;
+        float:left;
+    }
+    .divisao02{
+        width: 370px;
+        height: auto;
+        float: left;
+        margin: 10px;
+        margin-top: 35px;
+    }  
+    label{
+        width: 360px;
+        height: 10px;
+        margin: 5px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #FFCC00;
+    } 
+    input{
+        width: 360px;
+        height: 25px;
+        margin: 5px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #FFFFFF;
+        background-color:#241111;
+        border-width: 0px;
+    }
+    textarea{
+        width: 360px;
+        height: 45px;
+        margin: 5px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color:#241111;
+        border-width: 0px;
+    }
+    .btn {
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #241111;
+        background-color:#FFCC00;
+        border-width: 0px;
+    }
+    </style>
+
+    <script language="javascript" type="text/javascript">
+        dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+        monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+        now = new Date
+    </script>
+
+    </head>
+
+<body>
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            
+            <a href = "index.html"><img src = "img/logo.png"> </a> 
+        
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+
+        <div id = "menu_item">
+
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>       
+
+        </div>
+
+    </div>
+
+    <div id = "conteudo"> 
+        <div class = "divisao01">
+            <form name = "frm_contato">
+                <label> Nome </label>
+                <input name = "txt_nome" type = "text" placeholder = "Digite seu nome: "><br>
+
+                <label> Telefone </label>
+                <input name = "txt_fone" type = "tel" placeholder = "(99)9999-9999"><br>
+
+                <label> Email </label>
+                <input name = "txt_email" type = "email" placeholder = "Digite seu email: "><br>
+
+                <label> Assunto </label>
+                <input name = "txt_assunto" type = "text" placeholder = "Digite o assunto: "><br>
+
+                <label> Mensagem </label>
+                <textarea name = "txt_msm" placeholder = "Digite uma mensagem... "></textarea>
+
+                <input name = "btn_enviar" type = "submit" value = "Enviar" class = "btn">
+
+            </form>
+
+        </div>
+
+        <div class = "divisao02">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3433722017976!2d-47.35335788462449!3d-22.752634938109587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bde1e6a1551%3A0x826aa915bd182fc3!2sAv.%20Brasil%2C%20400%20-%20Vila%20Frezzarin%2C%20Americana%20-%20SP%2C%2013465-810!5e0!3m2!1spt-BR!2sbr!4v1594949645599!5m2!1spt-BR!2sbr" width="370" height="274" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>AV. Brasil 400, Frezarin - Americana / SP</p>
+            <p>19 3458-7898</p>
+
+        </div>
+
+    </div>
+
+    <div id = "rodape">
+
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+
+    </div>
+    
+</div>
+</body>
+</html>

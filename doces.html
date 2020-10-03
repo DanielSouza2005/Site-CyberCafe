@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+        <style type = "text/css">
+
+.doce{
+        width: 210px;
+        height: 260px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+        float: left;
+}  
+.foto_doce1{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce1:hover{
+    border-color: #c3ff84;
+}
+.foto_doce2{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce2:hover{
+    border-color: #FFCC00;
+}
+.foto_doce3{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce3:hover{
+    border-color: #faf373;
+}
+.foto_doce4{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce4:hover{
+    border-color: #d5c6ff;
+}
+.foto_doce5{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce5:hover{
+    border-color: #c8ffa8;
+}
+.foto_doce6{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_doce6:hover{
+    border-color: #9e5e56;
+}
+
+    </style>
+
+    <script language="javascript" type="text/javascript">
+        dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+        monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+        now = new Date
+    </script>
+    
+    </head>
+
+<body>
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            <a href = "index.html"><img src = "img/logo.png"> </a> 
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+
+        <div id = "menu_item">
+
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>   
+
+        </div>
+
+    </div>
+    <div id = "conteudo"> 
+        <div class = "doce">
+            <img src = "img/doces/doce_01.jpg" class = "foto_doce1">
+            <h1> Torta de Limão </h1>
+            <p> Biscoitos de maisena e raspas de limão </p>
+        </div>
+        <div class = "doce">
+            <img src = "img/doces/doce_02.jpg" class = "foto_doce2">
+            <h1> Pudim de Leite </h1>
+            <p> Pudim de Leite condensado MOÇA com calda de caramelo</p>
+        </div>
+        <div class = "doce">
+            <img src = "img/doces/doce_03.jpg" class = "foto_doce3">
+            <h1> Bolo de Leite Ninho </h1>
+            <p> Calda de leite condensado</p>
+        </div>
+
+        <div class = "doce">
+            <img src = "img/doces/doce_04.jpg" class = "foto_doce4">
+            <h1> Mousse de Uva </h1>
+            <p> Mousse feito de suco de uva em pó e leite condensado </p>
+        </div>
+        <div class = "doce">
+            <img src = "img/doces/doce_05.jpg" class = "foto_doce5">
+            <h1> Mousse de Limão </h1>
+            <p> Mousse feito com leite condensado e raspas de limão </p>
+        </div>
+        <div class = "doce">
+            <img src = "img/doces/doce_06.jpg" class = "foto_doce6">
+            <h1> Brigadeiro Gourmet </h1>
+            <p> Mais saboroso do que o brigadeiro comum.</p>
+        </div>
+    </div>
+    <div id = "rodape">
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+    </div>
+    
+</div>
+</body>
+</html>

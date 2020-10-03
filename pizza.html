@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Cyber Café </title>
+        <link rel = "stylesheet" type = "text/css" a href = "css/style.css">
+        <style type = "text/css">
+.pizza{
+        width: 210px;
+        height: 260px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+        float: left;
+}  
+.foto_pizza{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+}      
+.foto_pizza:hover{
+    border-color: #ffcc00;
+}
+    </style>
+
+        <script language="javascript" type="text/javascript">
+            dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+            monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "outubro", "novembro", "dezembro")
+            now = new Date
+        </script>
+
+    
+    </head>
+
+<body>
+
+<div id = "principal">
+
+    <div id = "topo">
+
+        <div id = "logo"> 
+            <a href = "index.html"><img src = "img/logo.png"> </a> 
+        </div>
+
+        <div id = "data">
+
+            <script language=javascript type="text/javascript">
+                document.write ("<p> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </p>")
+            </script>
+    
+        </div>
+
+    </div>
+
+    <div id = "menu_principal"> 
+        <div id = "menu_item">
+            <a href = "index.html"> <div class = "link"> Home </div> </a>
+            <a href = "promocoes.html"> <div class = "link"> Promoções </div> </a>
+            <a href = "servicos.html"> <div class = "link"> Serviços </div> </a>
+            <a href = "cardapio.html"> <div class = "link"> Cardápio </div> </a>
+            <a href = "eventos.html"> <div class = "link"> Eventos </div> </a>
+            <a href = "contatos.html"> <div class = "link"> Contatos </div> </a>                   
+        </div>
+    </div>
+    <div id = "conteudo"> 
+        <div class = "pizza">
+            <img src = "img/pizza/foto_01.jpg" class = "foto_pizza">
+            <h1> Egg & Bacon </h1>
+            <p> Mussarela, bacon, cebola, cream cheese, oregano e ovo de codorna. </p>
+        </div>
+        <div class = "pizza">
+            <img src = "img/pizza/foto_02.jpg" class = "foto_pizza">
+            <h1> Frango Grelhado </h1>
+            <p> Mussarela, frango, requeijão, tomate, azeitona preta, oregano e manjericão.</p>
+        </div>
+        <div class = "pizza">
+            <img src = "img/pizza/foto_03.jpg" class = "foto_pizza">
+            <h1> Toscana </h1>
+            <p> Mussarela, calabresa, requeijão, azeitona preta, cebola, tomate, oregano e manjericão.</p>
+        </div>
+
+        <div class = "pizza">
+            <img src = "img/pizza/foto_04.jpg" class = "foto_pizza">
+            <h1> Portuguesa </h1>
+            <p> Mussarela, presunto, ovo de codorna, azeitona preta, cebola, oregano e pimentão verde. </p>
+        </div>
+        <div class = "pizza">
+            <img src = "img/pizza/foto_05.jpg" class = "foto_pizza">
+            <h1> 4 Queijos </h1>
+            <p> Mussarela, requeijão, gorgonzola, oregano e parmesão ralado. </p>
+        </div>
+        <div class = "pizza">
+            <img src = "img/pizza/foto_06.jpg" class = "foto_pizza">
+            <h1> América </h1>
+            <p> Mussarela, pepperoni, champignon, cebola, oregano e pimentão verde.</p>
+        </div>
+    </div>
+    <div id = "rodape">
+        <p>2000-2020 cybercafe.com Todos os direitos reservados</p>
+    </div>
+    
+</div>
+</body>
+</html>
