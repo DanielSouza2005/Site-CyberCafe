@@ -1,0 +1,18 @@
+01 Egg & Bacon
+Mussarela, bacon, cebola, cream cheese, oregano e ovo de codorna.
+
+02 Frango Grelhado
+Mussarela, frango, requeijão, tomate, azeitona preta, oregano e manjericão.
+
+03 Toscana
+Mussarela, calabresa, requeijão, azeitona preta, cebola, tomate, oregano e manjericão.
+
+04 Portuguesa
+Mussarela, presunto, ovo de codorna, azeitona preta, cebola, oregano e pimentão verde.
+
+05 4 Queijos
+Mussarela, requeijão, gorgonzola, oregano e parmesão ralado.
+
+06 América
+Mussarela, pepperoni, champignon, cebola, oregano e pimentão verde.
+

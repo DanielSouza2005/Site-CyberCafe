@@ -1,0 +1,172 @@
+body{
+    background-image: url("../img/fundo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#principal{
+    width: 1024px;
+    height: 900px;
+    margin: auto;
+} 
+#topo{
+    width: 1024px;
+    height: 178px;
+    float: left;
+}  
+#logo{
+    width: 186px;
+    height: 178px;
+    margin-left: 419px;
+    float: left;
+}
+#data{
+    width: 300px;
+    height: 20px;
+    float: right;
+    margin-top: 142px;
+    margin-right: 40px;
+}  
+#menu_principal{
+    width: 1024px;
+    height: 49px;
+    background-image: url("../img/menu_principal.jpg");
+    float: left;
+    margin-top: 25px;
+}
+#conteudo{
+    width: 780px;
+    height: 588px;
+    background-image: url("../img/fundo_conteudo.png");
+    float: left;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 10px;
+}
+#menu_servicos{
+    width: 190px;
+    height: 255px;
+    background-image: url("../img/fundo_servicos.png");
+    float: left;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+#novidades{
+    width: 217px;
+    height: 255px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#eventos{
+    width: 217px;
+    height: 255px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#localizacao{
+    width: 190px;
+    height: 191px;
+    background-image: url("../img/fundo_localizacao.png");
+    float: left;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+#cardapio{
+    width: 474px;
+    height: 191px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#atendimento{
+    width: 190px;
+    height: 78px;
+    background-image: url("../img/fundo_atendimento.png");
+    float: left;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+#menu_item{
+    width: 780px;
+    height: 49px;
+    float: left;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+.logo_tw{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.twitter{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.link{
+    width: auto;
+    height: 29px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+.link:hover{
+    color:#ffffff;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 19px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #FFCC00;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #FFCC00;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #FFCC00;
+    text-decoration: none;
+}
+#rodape{
+    width: 780px;
+    height: 10px;
+    float: left;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 10px;
+    text-align: center;
+}
+#xicara{
+    width: 208px;
+    height: 177px;
+    position: relative;
+    left: 700px;
+    top: -120px;
+}
+
