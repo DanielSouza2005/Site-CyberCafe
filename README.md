@@ -2,7 +2,7 @@
 <img loading="lazy" src="https://img.shields.io/github/stars/DanielSouza2005/Site-CyberCafe?style=social"/> 
 
 <h2>💡 Sobre</h2>
-<p>rojeto desenvolvido durante as aulas de Desenvolvimento Web com HTML e CSS, com o objetivo de praticar a estruturação de páginas utilizando <code>&lt;div&gt;</code> e estilização com CSS. O site simula a página de um CyberCafé, apresentando cardápio, serviços, promoções e informações de contato.</p> 
+<p>Projeto desenvolvido durante as aulas de Desenvolvimento Web com HTML e CSS, com o objetivo de praticar a estruturação de páginas utilizando <code>&lt;div&gt;</code> e estilização com CSS. O site simula a página de um CyberCafé, apresentando cardápio, serviços, promoções e informações de contato.</p> 
 
 <h2>🖥️ Tecnologias Utilizadas</h2> 
 <div align="left" dir="auto"> 
